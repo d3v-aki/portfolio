@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a static personal portfolio website for Alex Rivera, now refactored for maintainability with separated concerns and modular JavaScript.
+This is a static personal portfolio website for Ace King, now refactored for maintainability with separated concerns and modular JavaScript.
 
 ## Structure
 
