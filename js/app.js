@@ -115,9 +115,13 @@ class ContactFormHandler {
     event.preventDefault();
     if (!this.submitBtn) return;
 
+    const form = this.submitBtn.closest('.contact-form');
+
     this.submitBtn.textContent = '✓ Message Sent!';
     this.submitBtn.style.background = 'linear-gradient(135deg,#22c55e,#16a34a)';
     this.submitBtn.disabled = true;
+
+    if (form) form.reset();
 
     setTimeout(() => {
       this.submitBtn.textContent = 'Send Message →';

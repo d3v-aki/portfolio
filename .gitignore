@@ -5,7 +5,7 @@ node_modules/
 
 # VS Code
 .vscode/
-
+CLAUDE.md
 # OS files
 Thumbs.db
 ehthumbs.db
